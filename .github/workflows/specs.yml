@@ -1,6 +1,6 @@
 name: GitHub Runner HW Specs
 run-name: GitHub Runner HW Specs
-on: [push]
+on: [push, pull_request, workflow_dispatch]
 jobs:
   Gather-Runner-Specs:
     runs-on: ubuntu-latest
